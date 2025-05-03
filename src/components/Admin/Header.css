@@ -1,0 +1,42 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 250px; /* chiều rộng sidebar */
+  right: 0;
+  height: 60px;
+  background-color: #2193cc;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.admin-logo {
+  height: 35px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+
+.header .username {
+  margin-right: 10px;
+  font-weight: 100px;
+  color: #f0f0f0;
+}
+
+.header .logout-button {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.header .logout-button:hover {
+  background-color: #c62828;
+}

@@ -1,0 +1,113 @@
+.student-page {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.student-page h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.search-section,
+.rooms-section,
+.booking-section,
+.student-list,
+.student-detail,
+.booking-action {
+  background-color: #fff;
+  padding: 15px 20px;
+  margin-bottom: 25px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+}
+
+.search-section h2,
+.rooms-section h2,
+.booking-section h2,
+.student-list h2,
+.student-detail h3,
+.booking-action h2 {
+  color: #007acc;
+  margin-bottom: 15px;
+}
+
+.search-section label {
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: 600;
+  color: #555;
+}
+
+.search-section input {
+  margin-left: 8px;
+  padding: 5px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-section button {
+  padding: 6px 15px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.search-section button:hover {
+  background-color: #005fa3;
+}
+
+.rooms-section ul,
+.booking-section ul,
+.student-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rooms-section li,
+.student-list li {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.rooms-section li:hover,
+.student-list li:hover {
+  background-color: #e6f0ff;
+}
+
+.rooms-section li.selected {
+  border-color: #007acc;
+  background-color: #cce4ff;
+}
+
+.booking-section li {
+  padding: 8px 12px;
+  border-bottom: 1px solid #eee;
+  color: #444;
+}
+
+.booking-action button {
+  padding: 8px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.booking-action button:hover {
+  background-color: #1e7e34;
+}

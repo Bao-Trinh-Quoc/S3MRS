@@ -1,0 +1,27 @@
+{
+  "admin": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ],
+  "students": [
+    {
+      "username": "student1",
+      "password": "student123",
+      "role": "student",
+      "studentId": "2021001",
+      "name":"Nguyen Van A"
+
+    },
+    {
+      "username": "student2",
+      "password": "student456",
+      "role": "student",
+      "studentId": "2021002",
+      "name":"Nguyen Minh B"
+    }
+  ]
+}
+  

@@ -1,0 +1,30 @@
+/* src/components/Admin/RoomList.css */
+
+.room-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .room-table th, .room-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .room-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .room-status-available {
+    background-color: #d4edda; /* Xanh nhạt cho phòng có trạng thái Available */
+  }
+  
+  .room-status-occupied {
+    background-color: #f8d7da; /* Đỏ nhạt cho phòng Occupied */
+  }
+  
+  .room-status-under-maintenance {
+    background-color: #fff3cd; /* Vàng nhạt cho phòng Under Maintenance */
+  }
+  

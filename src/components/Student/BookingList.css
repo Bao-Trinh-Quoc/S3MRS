@@ -1,0 +1,12 @@
+.status-pending {
+    color: green;
+  }
+  
+  .status-rejected {
+    color: red;
+  }
+  
+  .status-confirmed {
+    color: goldenrod;
+  }
+  
